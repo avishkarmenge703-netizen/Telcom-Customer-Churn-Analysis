@@ -1,145 +1,130 @@
-# Customer Retention and Churn Analysis
+# 📉 Telco Customer Churn Analysis
 
-## Project Overview
+## 📌 Project Overview
 
-This project presents a customer churn and retention analysis using a real-world telecom customer dataset.
-
-The objective of this analysis was to identify customer churn behavior, retention risks, and business improvement opportunities using Python-based data analysis and visualization techniques.
-
-The project focuses on transforming customer data into actionable business insights that support customer retention strategies and long-term business growth.
+Customer churn is one of the biggest challenges for telecom companies. This project uses Machine Learning to predict which customers are likely to leave the company so businesses can take proactive retention actions.
 
 ---
 
-# Business Objective
+## 🎯 Business Problem
 
-The primary objective of this project was to analyze customer churn behavior and identify factors contributing to customer retention challenges.
+Customer acquisition is expensive, and losing existing customers directly impacts revenue.
 
-The analysis aimed to support:
-
-* customer retention strategies
-* churn reduction initiatives
-* pricing optimization
-* customer engagement improvements
-* data-driven business decision-making
+The objective of this project is to identify customers who are likely to churn and understand the factors influencing their decision.
 
 ---
 
-# Tools and Technologies Used
+## 📂 Dataset
 
-* Python
-* Pandas
-* Matplotlib
-* Seaborn
-* ReportLab
-* Google Colab
-
----
-
-# Dataset Information
-
-Dataset Source:
-Kaggle — Telco Customer Churn Dataset
-
-Dataset includes:
-
-* Customer Information
-* Contract Types
-* Payment Methods
-* Internet Services
-* Monthly Charges
-* Customer Churn Status
+- IBM Telco Customer Churn Dataset
+- Features include:
+  - Customer demographics
+  - Internet service
+  - Contract type
+  - Monthly charges
+  - Tenure
+  - Payment method
+  - Churn status
 
 ---
 
-# Project Workflow
+## 🛠 Technologies Used
 
-## 1. Data Cleaning and Preparation
-
-Data preprocessing activities included:
-
-* missing value handling
-* duplicate record removal
-* numerical data conversion
-* formatting standardization
-* data validation
-
-These steps improved data quality and analytical consistency.
+- Python
+- Pandas
+- NumPy
+- Matplotlib
+- Seaborn
+- Scikit-learn
+- Jupyter Notebook
 
 ---
 
-## 2. Exploratory Data Analysis
+## 📊 Exploratory Data Analysis
 
-The analysis focused on:
+Performed analysis on:
 
-* customer churn distribution
-* contract-based retention behavior
-* monthly billing analysis
-* payment method analysis
-* customer risk identification
-
----
-
-## 3. Data Visualization
-
-Business charts and visualizations were created to analyze:
-
-* churn distribution
-* customer retention trends
-* contract performance
-* pricing behavior
-* payment method patterns
+- Missing Values
+- Customer Distribution
+- Contract Types
+- Monthly Charges
+- Tenure
+- Correlation Analysis
+- Churn Distribution
 
 ---
 
-## 4. Business Reporting
+## 🤖 Machine Learning Workflow
 
-A professional PDF business report was generated containing:
+- Data Cleaning
+- Feature Engineering
+- Label Encoding
+- Train-Test Split
+- Model Training
+- Model Evaluation
 
-* executive summary
-* churn analysis
-* customer insights
-* business recommendations
-* final business conclusion
+Algorithms Used:
 
----
-
-# Key Business Insights
-
-* Customers with month-to-month contracts demonstrated higher churn behavior.
-* Higher monthly charges were associated with increased churn probability.
-* Long-term contracts contributed positively to customer retention.
-* Customer behavior patterns highlighted opportunities for pricing and retention improvements.
-* Payment behavior analysis supported customer engagement insights.
+- Logistic Regression
+- Decision Tree
+- Random Forest 
 
 ---
 
-# Business Recommendations
+## 📈 Results
 
-Based on the analysis findings, the following recommendations were identified:
+- Built a classification model to predict customer churn.
+- Evaluated model performance using:
+  - Accuracy
+  - Precision
+  - Recall
+  - F1 Score
+  - Confusion Matrix
 
-1. Improve retention strategies for high-risk customer segments.
 
-2. Encourage long-term contract adoption to improve customer stability.
-
-3. Review pricing strategies for customers with higher monthly billing amounts.
-
-4. Increase customer engagement initiatives to improve loyalty.
-
-5. Continuously monitor customer churn metrics to support proactive decision-making.
 
 ---
 
-# Project Deliverables
+## 💼 Business Impact
 
-* Cleaned Dataset
-* Business Charts
-* Python Analysis Notebook
-* Professional PDF Report
+This solution helps telecom companies:
+
+- Reduce customer churn
+- Improve customer retention
+- Increase customer lifetime value
+- Make data-driven retention strategies
 
 ---
 
-# Conclusion
+## 📁 Project Structure
 
-This project demonstrates practical customer analytics and business reporting skills using Python and real-world telecom customer data.
+```
+Telcom-Customer-Churn-Analysis/
+│
+├── data/
+├── notebooks/
+├── images/
+├── models/
+├── requirements.txt
+├── README.md
+└── churn_analysis.ipynb
+```
 
-The analysis successfully identified customer retention risks, churn behavior patterns, and operational improvement opportunities through data cleaning, visualization, and business-focused reporting techniques.
+---
+
+## 🚀 Future Improvements
+
+- Hyperparameter Tuning
+- Deploy using Streamlit
+- Explain predictions using SHAP
+- Build an interactive dashboard
+
+---
+
+## 👨‍💻 Author
+
+**Avishkar Menge**
+
+GitHub: https://github.com/avishkarmenge703-netizen
+
+LinkedIn: https://www.linkedin.com/in/avishkar-menge-880686311/
